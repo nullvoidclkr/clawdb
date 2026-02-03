@@ -1,0 +1,1 @@
+["features]\nseeds = false\nskip-lint = false\nallow-scripts = []\n[programs.local]\nclawdb = \"../target/deploy/clawdb\"\n[provider]\ncluster = \"Devnet\"\nwallet = \"~/.config/solana/id.json\"\n[scripts]\ntest = \"anchor-test test\"\nbuild = \"anchor-build\"\nbuild-bpf = \"anchor build --program clawdb programs/clawdb/src/lib.rs\""]

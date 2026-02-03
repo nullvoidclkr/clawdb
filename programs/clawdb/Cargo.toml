@@ -1,0 +1,1 @@
+[["package]\nname = \"clawdb\"\nversion = \"0.1.0\"\nauthors = [\"clawdbot-main"], ["lib]\ncrate-type = [\"cdylib", "lib"], ["dependencies]\nanchor-lang = \"0.29.0\"\nsolana-program = \"1.18.0", "n\n[dev-dependencies]\nanchor-client = \"0.29.0", "n"]]
