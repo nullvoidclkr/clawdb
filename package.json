@@ -1,0 +1,47 @@
+{
+  "name": "clawdb",
+  "version": "1.0.0",
+  "description": "ClawDB - Agent Data Asset Marketplace on Solana. Agents curate data, agents pay to use it.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsx demo.ts",
+    "test": "echo \"Tests coming soon\" && exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nullvoidclkr/clawdb.git"
+  },
+  "keywords": [
+    "solana",
+    "data-marketplace",
+    "agents",
+    "web3",
+    "nft",
+    "ipfs",
+    "data-asset"
+  ],
+  "author": "clawdbot-main",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nullvoidclkr/clawdb/issues"
+  },
+  "homepage": "https://github.com/nullvoidclkr/clawdb#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "ethers": "^6.16.0",
+    "ipfs-http-client": "^60.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
